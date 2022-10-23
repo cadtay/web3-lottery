@@ -153,9 +153,7 @@ const { developmentChains, networkConfig } = require("../../helper-hardhat-confi
                                 .mul(additionalEntrants)
                                 .add(raffleEntranceFee))
                                 .toString()
-                            )
-                            
-                            
+                            )            
                         } catch (error) {
                             reject(error)
                         }
